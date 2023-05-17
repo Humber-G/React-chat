@@ -1,0 +1,40 @@
+import React from 'react';
+
+const Chats = () => {
+	return (
+		<div className='chats'>
+			<div className='userChat'>
+				<img
+					src='https://media.istockphoto.com/id/824860820/es/foto/macaco-barbary.jpg?b=1&s=612x612&w=0&k=20&c=PugrFgo9bzgqJBLCqm-0ZPRmXeA5tA0RbY2iAEGVzOU='
+					alt=''
+				/>
+				<div className='userChatInfo'>
+					<span>Jane</span>
+					<p>hello</p>
+				</div>
+			</div>
+			<div className='userChat'>
+				<img
+					src='https://media.istockphoto.com/id/824860820/es/foto/macaco-barbary.jpg?b=1&s=612x612&w=0&k=20&c=PugrFgo9bzgqJBLCqm-0ZPRmXeA5tA0RbY2iAEGVzOU='
+					alt=''
+				/>
+				<div className='userChatInfo'>
+					<span>Jane</span>
+					<p>hello</p>
+				</div>
+			</div>
+			<div className='userChat'>
+				<img
+					src='https://media.istockphoto.com/id/824860820/es/foto/macaco-barbary.jpg?b=1&s=612x612&w=0&k=20&c=PugrFgo9bzgqJBLCqm-0ZPRmXeA5tA0RbY2iAEGVzOU='
+					alt=''
+				/>
+				<div className='userChatInfo'>
+					<span>Jane</span>
+					<p>hello</p>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Chats;
