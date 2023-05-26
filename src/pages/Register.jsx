@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, db, storage } from '../firebase';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { doc, setDoc } from 'firebase/firestore';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Register = () => {
 	// e = event
@@ -72,7 +72,9 @@ const Register = () => {
 					<button>Sign Up</button>
 					{err && <span>Something went wrong</span>}
 				</form>
-				<p>You do have an account? Login</p>
+				<p>
+					You do have an account? <Link to={'/login'}>Login</Link>
+				</p>
 			</div>
 		</div>
 	);
