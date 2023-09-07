@@ -1,6 +1,6 @@
 {
-  "homepage": "https://humber-g.github.io/React-chat",
-  "name": "booking",
+  "homepage": "https://humber-g.github.io/React-chat/login",
+  "name": "chat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
